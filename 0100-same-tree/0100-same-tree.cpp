@@ -12,13 +12,11 @@
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        //both trees are empty
-       if(p==nullptr && q==nullptr) return true;
-        //one is empty and other dont
-       if(p==nullptr || q==nullptr) return false;
-       //check the values
-       if(p->val!=q->val) return false;
-       //check the leftTree and rightTree
-       return isSameTree(p->left,q->left) && isSameTree(p->right,q->right);
+        if(p==NULL || q==NULL){
+            return (p==q);
+        }
+        return (p->val==q->val)
+                && isSameTree(p->left,q->left)
+                && isSameTree(p->right,q->right);
     }
 };
