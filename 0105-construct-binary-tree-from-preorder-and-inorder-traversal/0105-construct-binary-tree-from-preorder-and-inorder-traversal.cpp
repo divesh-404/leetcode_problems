@@ -12,24 +12,41 @@
 class Solution {
 public:
 
-    TreeNode* buildTree(vector<int>& preorder,int prestart,int preend,vector<int>& inorder,int instart,int inend,map<int,int>& mpp){
-        if(prestart>preend || instart>inend) return NULL;
-        TreeNode* root= new TreeNode(preorder[prestart]);
-        int inroot=mpp[root->val];
-        int numsleft=inroot-instart;
+    // TreeNode* buildTree(vector<int>& preorder,int prestart,int preend,vector<int>& inorder,int instart,int inend,map<int,int>& mpp){
+    //     if(prestart>preend || instart>inend) return NULL;
+    //     TreeNode* root= new TreeNode(preorder[prestart]);
+    //     int inroot=mpp[root->val];
+    //     int numsleft=inroot-instart;
 
-        root->left=buildTree(preorder,prestart+1,prestart+numsleft,inorder,instart,inroot-1,mpp);
-        root->right=buildTree(preorder,prestart+numsleft+1,preend,inorder,inroot+1,inend,mpp);
+    //     root->left=buildTree(preorder,prestart+1,prestart+numsleft,inorder,instart,inroot-1,mpp);
+    //     root->right=buildTree(preorder,prestart+numsleft+1,preend,inorder,inroot+1,inend,mpp);
+    //     return root;
+    // }
+    map<int,int> mpp;
+    int preIndex=0;
+
+    TreeNode* buildTree(vector<int>& preorder,int left,int right){
+        if(left>right) return nullptr;
+
+        int rootVal=preorder[preIndex];
+        preIndex++;
+        TreeNode* root=new TreeNode(rootVal);
+        int mid=mpp[rootVal];
+
+        root->left=buildTree(preorder,left,mid-1);
+        root->right=buildTree(preorder,mid+1,right);
+
         return root;
+
     }
 
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        map<int,int> mpp;
         for(int i=0;i<inorder.size();i++){
             mpp[inorder[i]]=i;
         }
 
-        TreeNode* root=buildTree(preorder,0,preorder.size()-1,inorder,0,inorder.size()-1,mpp);
-        return root;
+        // TreeNode* root=buildTree(preorder,0,preorder.size()-1,inorder,0,inorder.size()-1,mpp);
+        // return root;
+        return buildTree(preorder,0,inorder.size()-1);
     }
 };
