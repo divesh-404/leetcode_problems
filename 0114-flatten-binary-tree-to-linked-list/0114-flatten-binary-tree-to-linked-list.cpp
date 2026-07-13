@@ -17,7 +17,6 @@ public:
 
         flatten(root->right);
         flatten(root->left);
-
         root->right=prev;
         root->left=nullptr;
         prev=root;
