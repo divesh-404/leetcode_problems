@@ -12,16 +12,16 @@
 class Solution {
 public:
 // recursive method
-    void preOrder(TreeNode* root, vector<int>& ans){
-        if(root==NULL) return;
-        ans.push_back(root->val);
-        preOrder(root->left,ans);
-        preOrder(root->right,ans);
-    }
+    // void preOrder(TreeNode* root, vector<int>& ans){
+    //     if(root==NULL) return;
+    //     ans.push_back(root->val);
+    //     preOrder(root->left,ans);
+    //     preOrder(root->right,ans);
+    // }
     vector<int> preorderTraversal(TreeNode* root) {
-        vector<int> ans;
-        preOrder(root,ans);
-        return ans;
+        // vector<int> ans;
+        // preOrder(root,ans);
+        // return ans;
 
         //iterative method
 
@@ -41,5 +41,32 @@ public:
         //     }
         // }
         // return ans;
+
+         //morris preorder travesral
+        vector<int> preorder;
+        TreeNode* curr=root;
+        while(curr){
+            if(!curr->left){
+                preorder.push_back(curr->val);
+                curr=curr->right;
+            }
+            else{
+                TreeNode* prev=curr->left;
+                while(prev->right && prev->right!=curr){
+                    prev=prev->right;
+                }
+                if(prev->right==nullptr){
+                    prev->right=curr;
+                    preorder.push_back(curr->val);
+                    curr=curr->left;
+                }
+                else{
+                    prev->right=nullptr;
+                    curr=curr->right;
+                }
+            }
+        }
+
+        return preorder;
     }
 };
