@@ -13,23 +13,28 @@ class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
         if(!root) return new TreeNode(val);
-        TreeNode* cur=root;
-        while(cur){
-            if(val>cur->val){
-                if(!cur->right){
-                    cur->right= new TreeNode(val);
-                    break;
-                }
-                else cur=cur->right;
-            }
-            else{
-                if(!cur->left){
-                    cur->left= new TreeNode(val);
-                    break;
-                }
-                else cur=cur->left;
-            }
+        // TreeNode* cur=root;
+        // while(cur){
+        //     if(val>cur->val){
+        //         if(!cur->right){
+        //             cur->right= new TreeNode(val);
+        //             break;
+        //         }
+        //         else cur=cur->right;
+        //     }
+        //     else{
+        //         if(!cur->left){
+        //             cur->left= new TreeNode(val);
+        //             break;
+        //         }
+        //         else cur=cur->left;
+        //     }
+        // }
+
+        if(val<root->val){
+            root->left=insertIntoBST(root->left,val);
         }
+        else root->right=insertIntoBST(root->right,val);
         return root;
     }
 };
