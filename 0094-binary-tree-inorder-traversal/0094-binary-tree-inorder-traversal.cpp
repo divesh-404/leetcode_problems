@@ -26,24 +26,51 @@ public:
 
         //we go to extreme left and if null we print and then go to right
 
-        vector<int> inorder;
-        if(root==NULL) return inorder;
-        stack<TreeNode*> st;
-        TreeNode* node=root;
+        // vector<int> inorder;
+        // if(root==NULL) return inorder;
+        // stack<TreeNode*> st;
+        // TreeNode* node=root;
 
-        while(true){
-            if(node!=NULL){
-                st.push(node);
-                node=node->left;
+        // while(true){
+        //     if(node!=NULL){
+        //         st.push(node);
+        //         node=node->left;
+        //     }
+        //     else{
+        //         if(st.empty()==true) break;
+        //         node=st.top();
+        //         st.pop();
+        //         inorder.push_back(node->val);
+        //         node=node->right;
+        //     }
+        // }
+        // return inorder;
+
+        //morris inorder travesral
+        vector<int> inorder;
+        TreeNode* curr=root;
+        while(curr){
+            if(!curr->left){
+                inorder.push_back(curr->val);
+                curr=curr->right;
             }
             else{
-                if(st.empty()==true) break;
-                node=st.top();
-                st.pop();
-                inorder.push_back(node->val);
-                node=node->right;
+                TreeNode* prev=curr->left;
+                while(prev->right && prev->right!=curr){
+                    prev=prev->right;
+                }
+                if(prev->right==nullptr){
+                    prev->right=curr;
+                    curr=curr->left;
+                }
+                else{
+                    prev->right=nullptr;
+                    inorder.push_back(curr->val);
+                    curr=curr->right;
+                }
             }
         }
+
         return inorder;
     }
 };
