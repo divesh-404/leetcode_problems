@@ -11,17 +11,17 @@
  */
 class Solution {
 public:
-    unordered_map<int,int> mpp;
+    unordered_set<int> st;
     int ans=0;
     void inorder(TreeNode* root,int k){
         if(!root || ans) return;
         inorder(root->left,k);
-        int more=k-root->val;
-        if(mpp.count(more)){
+        // int more=k-root->val;
+        if(st.count(k-root->val)){
             ans=1;
             return;
         }
-        mpp[root->val]++;
+        st.insert(root->val);
         inorder(root->right,k);
     }
     bool findTarget(TreeNode* root, int k) {
