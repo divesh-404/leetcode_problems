@@ -14,7 +14,7 @@ public:
     unordered_map<int,int> mpp;
     int ans=0;
     void inorder(TreeNode* root,int k){
-        if(!root) return;
+        if(!root || ans) return;
         inorder(root->left,k);
         int more=k-root->val;
         if(mpp.count(more)){
