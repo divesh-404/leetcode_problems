@@ -12,19 +12,19 @@
 class Solution {
 public:
     int ans=1;
-    long long element=LLONG_MIN;
-    void inorder(TreeNode* root,int &ans,long long &element){
-        if(!root) return;
-        inorder(root->left,ans,element);
-        if(root->val<=element){
+    TreeNode* prev=nullptr;
+    void inorder(TreeNode* root){
+        if(!root || ans==0) return;
+        inorder(root->left);
+        if(prev && root->val<=prev->val){
             ans=0;
             return;
         }
-        element=root->val;
-        inorder(root->right,ans,element);
+        prev=root;
+        inorder(root->right);
     }
     bool isValidBST(TreeNode* root) {
-        inorder(root,ans,element);
+        inorder(root);
         return ans;
 
     }
