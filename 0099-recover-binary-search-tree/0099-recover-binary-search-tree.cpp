@@ -22,7 +22,7 @@ public:
             firstViolation=prev;
             adjacentToFirst=root;
         }
-        if(prev && root->val<prev->val && firstViolation){
+        else if(prev && root->val<prev->val && firstViolation){
             secondViolation=root;
         }
         prev=root;
