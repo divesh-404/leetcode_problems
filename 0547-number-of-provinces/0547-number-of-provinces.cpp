@@ -19,7 +19,7 @@ public:
             }
         }
 
-        vector<int> vis(n+1,0);
+        vector<int> vis(n,0);
         int cnt=0;
         for(int i=0;i<n;i++){
             if(!vis[i]){
