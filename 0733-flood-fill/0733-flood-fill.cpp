@@ -8,19 +8,7 @@ public:
         queue<pair<int,int>> q;
         q.push({sr,sc});
         image[sr][sc]=color;
-        // int vis[n][m];
-        // for(int i=0;i<n;i++){
-        //     for(int j=0;j<m;j++){
-        //         if(image[i][j]==color){
-        //             q.push({i,j});
-        //             vis[i][j]=color;
-        //         }
-        //         else{
-        //             vis[i][j]=0;
-        //         }
-        //     }
-        // }
-
+        
         int dirRow[]={-1,0,1,0};
         int dirCol[]={0,1,0,-1};
         while(!q.empty()){
