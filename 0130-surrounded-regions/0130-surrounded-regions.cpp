@@ -11,15 +11,13 @@ public:
                 q.push({0,j});
                 vis[0][j]=1;
             }
-            else vis[0][j]=0;
         }
-        //right col
+        //left col
         for(int i=1;i<n-1;i++){
             if(board[i][0]=='O'){
                 q.push({i,0});
                 vis[i][0]=1;
             }
-            else vis[i][0]=0;
         }
         //bottom row
         if(n>1){
@@ -28,22 +26,15 @@ public:
                     q.push({n-1,j});
                     vis[n-1][j]=1;
                 }
-                else vis[n-1][j]=0;
             }
         }
-        //left col
+        //right col
         if(m>1){
             for(int i=1;i<n-1;i++){
                 if(board[i][m-1]=='O'){
                     q.push({i,m-1});
                     vis[i][m-1]=1;
                 }
-                else vis[i][m-1]=0;
-            }
-        }
-        for(int i=1;i<n-1;i++){
-            for(int j=1;j<m-1;j++){
-                vis[i][j]=0;
             }
         }
 
