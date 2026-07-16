@@ -27,7 +27,7 @@ public:
             for(int i=0;i<4;i++){
                 int nrow=r+dirRow[i];
                 int ncol=c+dirCol[i];
-                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && vis[nrow][ncol]!=1){
+                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && !vis[nrow][ncol] &&mat[nrow][ncol]){
                     q.push({{nrow,ncol},val+1});
                     vis[nrow][ncol]=1;
                     ans[nrow][ncol]=val+1;
