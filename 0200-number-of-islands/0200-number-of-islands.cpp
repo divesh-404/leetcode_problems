@@ -30,8 +30,7 @@ public:
         int count=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(vis[i][j]) continue;
-                if(grid[i][j]=='1'){
+                if(!vis[i][j] && grid[i][j]=='1'){
                     bfs(i,j,vis,grid);
                     count++;
                 }
