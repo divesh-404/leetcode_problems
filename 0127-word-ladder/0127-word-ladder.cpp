@@ -4,6 +4,7 @@ public:
         queue<pair<string,int>> q;
         q.push({beginWord,1});
         unordered_set<string> st(wordList.begin(),wordList.end());
+        if(!st.count(endWord)) return 0;
         st.erase(beginWord);
 
         while(!q.empty()){
