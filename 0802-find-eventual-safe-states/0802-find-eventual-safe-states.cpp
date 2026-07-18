@@ -2,18 +2,19 @@ class Solution {
 public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         vector<vector<int>> adj(graph.size());
+        vector<int> indegree(graph.size(),0);
         for(int i=0;i<graph.size();i++){
             for(auto it: graph[i]){
                 adj[it].push_back(i);
+                indegree[i]++;
             }
         }
 
-        vector<int> indegree(graph.size(),0);
-        for(int i=0;i<graph.size();i++){
-            for(auto it:adj[i]){
-                indegree[it]++;
-            }
-        }
+        // for(int i=0;i<graph.size();i++){
+        //     for(auto it:adj[i]){
+        //         indegree[it]++;
+        //     }
+        // }
         queue<int> q;
         for(int i=0;i<graph.size();i++){
             if(indegree[i]==0) q.push(i);
