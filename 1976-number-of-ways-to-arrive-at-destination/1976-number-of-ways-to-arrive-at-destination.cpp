@@ -1,38 +1,43 @@
 class Solution {
 public:
     int countPaths(int n, vector<vector<int>>& roads) {
-        const int MOD = 1e9 + 7;
+        const int MOD=1e9+7;
         vector<vector<pair<int,int>>> adj(n);
-        for(auto it:roads){
+        for(auto it :roads){
             adj[it[0]].push_back({it[1],it[2]});
             adj[it[1]].push_back({it[0],it[2]});
         }
-        vector<long long> time(n,LLONG_MAX);
-        time[0]=0;
+
+        vector<long long> dist(n,LLONG_MAX);
+        dist[0]=0;
         vector<int> ways(n,0);
         ways[0]=1;
-        priority_queue<pair<long long,int>, vector<pair<long long,int>>, greater<pair<long long,int>>> pq;
+
+        priority_queue<pair<long long,int>,vector<pair<long long,int>>,greater<pair<long long,int>>> pq;
+        //dist,source
         pq.push({0,0});
 
         while(!pq.empty()){
             int node=pq.top().second;
-            long long t=pq.top().first;
+            long long weight=pq.top().first;
             pq.pop();
-            if(t>time[node]) continue;
+
+            if(weight>dist[node]) continue;
+
             for(auto it:adj[node]){
                 int adjNode=it.first;
-                long long tem=it.second;
-                if(tem+t<time[adjNode]){
-                    time[adjNode]=tem+t;
+                long long distance=it.second;
+                if(distance+weight<dist[adjNode]){
                     ways[adjNode]=ways[node];
-                    pq.push({time[adjNode],adjNode});
+                    dist[adjNode]=distance+weight;
+                    pq.push({dist[adjNode],adjNode});
                 }
-                else if(tem+t==time[adjNode]){
+                else if(distance+weight==dist[adjNode]){
                     ways[adjNode]=(ways[adjNode]+ways[node])%MOD;
                 }
             }
-
         }
+
         return ways[n-1];
     }
 };
