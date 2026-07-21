@@ -12,7 +12,9 @@ public:
 
         for(int via=0;via<n;via++){
             for(int i=0;i<n;i++){
+                if(dis[i][via]>distanceThreshold) continue;
                 for(int j=0;j<n;j++){
+                    if(dis[via][j]>distanceThreshold) continue;
                     if(dis[i][via]!=INT_MAX && dis[via][j]!=INT_MAX){
                         dis[i][j]=min(dis[i][j],(dis[i][via]+dis[via][j]));
                     }
