@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0671-second-minimum-node-in-a-binary-tree) |
+| [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/divesh-404/leetcode_problems/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/divesh-404/leetcode_problems/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/divesh-404/leetcode_problems/tree/master/0785-is-graph-bipartite) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/divesh-404/leetcode_problems/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/divesh-404/leetcode_problems/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/divesh-404/leetcode_problems/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/divesh-404/leetcode_problems/tree/master/0785-is-graph-bipartite) |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/divesh-404/leetcode_problems/tree/master/0127-word-ladder) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/divesh-404/leetcode_problems/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -189,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## String
 |  |
@@ -197,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/divesh-404/leetcode_problems/tree/master/0127-word-ladder) |
 | [0257-binary-tree-paths](https://github.com/divesh-404/leetcode_problems/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
 ## Backtracking
 |  |
 | ------- |
@@ -210,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/divesh-404/leetcode_problems/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/divesh-404/leetcode_problems/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/divesh-404/leetcode_problems/tree/master/0542-01-matrix) |
+| [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/divesh-404/leetcode_problems/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/divesh-404/leetcode_problems/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/divesh-404/leetcode_problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -273,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/divesh-404/leetcode_problems/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/divesh-404/leetcode_problems/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/divesh-404/leetcode_problems/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/divesh-404/leetcode_problems/tree/master/0785-is-graph-bipartite) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/divesh-404/leetcode_problems/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/divesh-404/leetcode_problems/tree/master/1020-number-of-enclaves) |
