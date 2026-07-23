@@ -35,7 +35,7 @@ public:
     //     }
     // }
     int makeConnected(int n, vector<vector<int>>& connections) {
-        if(connections.size()<(n-1)) return -1;
+        // if(connections.size()<(n-1)) return -1;
         // vector<vector<int>> adj(n);
         // for(auto it: connections){
         //     adj[it[0]].push_back(it[1]);
@@ -54,15 +54,21 @@ public:
         // by disjoint set method
 
         DSU ds(n);
+        int extraEdges=0;
         for(auto it: connections){
-            ds.unionBySize(it[0],it[1]);
+            if(ds.findPar(it[0])==ds.findPar(it[1])){
+                extraEdges++;
+            }
+            else ds.unionBySize(it[0],it[1]);
         }
         int components=0;
         for(int i=0;i<n;i++){
             if(ds.findPar(i)==i) components++;
         }
 
-        return components-1;
+        int ans=components-1;
+        if(extraEdges>=ans) return ans;
+        else return -1;
 
     }
 };
