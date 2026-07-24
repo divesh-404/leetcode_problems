@@ -23,8 +23,7 @@ public:
                 int nr=r+dirR[i];
                 int nc=c+dirC[i];
                 if(nr>=0 && nr<n && nc>=0 && nc<n){
-                    int timeReq=grid[nr][nc];
-                    int maxTime=max(time,timeReq);
+                    int maxTime=max(time,grid[nr][nc]);
                     if(maxTime<dis[nr][nc]){
                         dis[nr][nc]=maxTime;
                         pq.push({maxTime,{nr,nc}});
