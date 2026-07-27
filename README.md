@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0509-fibonacci-number](https://github.com/divesh-404/leetcode_problems/tree/master/0509-fibonacci-number) |
 | [0542-01-matrix](https://github.com/divesh-404/leetcode_problems/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divesh-404/leetcode_problems/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/divesh-404/leetcode_problems/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -348,4 +349,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/divesh-404/leetcode_problems/tree/master/1192-critical-connections-in-a-network) |
+## Math
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/divesh-404/leetcode_problems/tree/master/0509-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/divesh-404/leetcode_problems/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/divesh-404/leetcode_problems/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
