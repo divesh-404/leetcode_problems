@@ -1,21 +1,16 @@
 class Solution {
 public:
+    int fun(int ind,vector<int>& dp,vector<int>& nums){
+        if(ind==0) return nums[ind];
+        if(ind<0) return 0;
+        if(dp[ind]!=-1) return dp[ind];
+        int pick=nums[ind]+fun(ind-2,dp,nums);
+        int notpick=fun(ind-1,dp,nums);
+        return dp[ind]=max(pick,notpick);
+    }
     int rob(vector<int>& nums) {
-
-        int n=nums.size();
-        if(n==1) return nums[0];
-        vector<int> dp(n,0);
-        dp[0]=nums[0];
-        dp[1]=nums[1];
-        int maxrob=max(dp[0],dp[1]);
-        for(int i=2;i<n;i++){
-            int rob1=dp[i-2];
-            int rob2=INT_MIN;
-            if(i>=3) rob2=dp[i-3];
-            dp[i]=nums[i]+max(rob1,rob2);
-            maxrob=max(maxrob,dp[i]);
-            
-        }
-        return maxrob;
+        int ind=nums.size()-1;
+        vector<int> dp(ind+1,-1);
+        return fun(ind,dp,nums);
     }
 };
