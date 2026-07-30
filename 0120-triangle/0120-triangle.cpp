@@ -35,10 +35,7 @@ public:
         // return dp[0][0];
 
         // space optimization
-        vector<int> next(n);
-        for(int c=0;c<n;c++){
-            next[c]=triangle[n-1][c];
-        }
+        vector<int> next=triangle[n-1];
 
         for(int r=n-2;r>=0;r--){
             vector<int> temp(n,0);
