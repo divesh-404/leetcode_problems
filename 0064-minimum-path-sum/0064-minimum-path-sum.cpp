@@ -26,26 +26,55 @@ public:
         // return fun(m-1,n-1,dp,grid);
 
         //tabulation
-        dp[0][0]=grid[0][0];
-        for(int r=0;r<m;r++){
-            for(int c=0;c<n;c++){
-                if(r==0 && c==0) continue;
-                int left=INT_MAX;
-                if(c>0) left=dp[r][c-1];
-                int up=INT_MAX;
-                if(r>0) up=dp[r-1][c];
+        // dp[0][0]=grid[0][0];
+        // for(int r=0;r<m;r++){
+        //     for(int c=0;c<n;c++){
+        //         if(r==0 && c==0) continue;
+        //         int left=INT_MAX;
+        //         if(c>0) left=dp[r][c-1];
+        //         int up=INT_MAX;
+        //         if(r>0) up=dp[r-1][c];
 
+        //         if(left==INT_MAX){
+        //             dp[r][c]=grid[r][c]+up;
+        //         }
+        //         else if(up==INT_MAX){
+        //             dp[r][c]=grid[r][c]+left;
+        //         }
+        //         else{
+        //             dp[r][c]=min((grid[r][c]+left),grid[r][c]+up);
+        //         }
+        //     }
+        // }
+        // return dp[m-1][n-1];
+
+        //space optimization
+
+        vector<int> prev(n,INT_MAX);
+
+        for(int r=0;r<m;r++){
+            vector<int> temp(n);
+            for(int c=0;c<n;c++){
+                if(r==0 && c==0){
+                    temp[0]=grid[r][c];
+                    continue;
+                }
+                int left=INT_MAX;
+                if(c>0) left=temp[c-1];
+                int up=prev[c];
                 if(left==INT_MAX){
-                    dp[r][c]=grid[r][c]+up;
+                    temp[c]=grid[r][c]+up;
                 }
                 else if(up==INT_MAX){
-                    dp[r][c]=grid[r][c]+left;
+                    temp[c]=grid[r][c]+left;
                 }
                 else{
-                    dp[r][c]=min((grid[r][c]+left),grid[r][c]+up);
+                    temp[c]=min((grid[r][c]+left),grid[r][c]+up);
                 }
             }
+            prev=temp;
         }
-        return dp[m-1][n-1];
+
+        return prev[n-1];
     }
 };
