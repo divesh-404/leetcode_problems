@@ -59,18 +59,9 @@ public:
                     temp[0]=grid[r][c];
                     continue;
                 }
-                int left=INT_MAX;
-                if(c>0) left=temp[c-1];
+                int left=(c>0)?temp[c-1]:INT_MAX;
                 int up=prev[c];
-                if(left==INT_MAX){
-                    temp[c]=grid[r][c]+up;
-                }
-                else if(up==INT_MAX){
-                    temp[c]=grid[r][c]+left;
-                }
-                else{
-                    temp[c]=min((grid[r][c]+left),grid[r][c]+up);
-                }
+                temp[c]=grid[r][c] +min(up,left);
             }
             prev=temp;
         }
