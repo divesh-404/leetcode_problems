@@ -23,6 +23,29 @@ public:
         int n=grid[0].size();
         vector<vector<int>> dp(m,vector<int>(n,-1));
         //memoization
-        return fun(m-1,n-1,dp,grid);
+        // return fun(m-1,n-1,dp,grid);
+
+        //tabulation
+        dp[0][0]=grid[0][0];
+        for(int r=0;r<m;r++){
+            for(int c=0;c<n;c++){
+                if(r==0 && c==0) continue;
+                int left=INT_MAX;
+                if(c>0) left=dp[r][c-1];
+                int up=INT_MAX;
+                if(r>0) up=dp[r-1][c];
+
+                if(left==INT_MAX){
+                    dp[r][c]=grid[r][c]+up;
+                }
+                else if(up==INT_MAX){
+                    dp[r][c]=grid[r][c]+left;
+                }
+                else{
+                    dp[r][c]=min((grid[r][c]+left),grid[r][c]+up);
+                }
+            }
+        }
+        return dp[m-1][n-1];
     }
 };
