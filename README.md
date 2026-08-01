@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/divesh-404/leetcode_problems/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/divesh-404/leetcode_problems/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Hash Table
 |  |
 | ------- |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## String
 |  |
 | ------- |
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/divesh-404/leetcode_problems/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/divesh-404/leetcode_problems/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1631-path-with-minimum-effort](https://github.com/divesh-404/leetcode_problems/tree/master/1631-path-with-minimum-effort) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Binary Search
 |  |
 | ------- |
@@ -254,10 +257,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/divesh-404/leetcode_problems/tree/master/0778-swim-in-rising-water) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/divesh-404/leetcode_problems/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1631-path-with-minimum-effort](https://github.com/divesh-404/leetcode_problems/tree/master/1631-path-with-minimum-effort) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/divesh-404/leetcode_problems/tree/master/0222-count-complete-tree-nodes) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -298,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Union-Find
 |  |
 | ------- |
@@ -391,4 +397,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1757-recyclable-and-low-fat-products](https://github.com/divesh-404/leetcode_problems/tree/master/1757-recyclable-and-low-fat-products) |
+## Ordered Set
+|  |
+| ------- |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Bitmask
+|  |
+| ------- |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 <!---LeetCode Topics End-->
