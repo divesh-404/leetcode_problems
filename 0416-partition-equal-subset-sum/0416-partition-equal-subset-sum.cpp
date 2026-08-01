@@ -21,7 +21,29 @@ public:
         }
         if(sum%2!=0) return false;
         int subSum=sum/2;
-        vector<vector<int>> dp(n,vector<int>(subSum+1,-1));
-        return fun(n-1,subSum,nums,dp);
+        // vector<vector<int>> dp(n,vector<int>(subSum+1,-1));
+        // return fun(n-1,subSum,nums,dp);
+
+        // tabulation
+        vector<vector<bool>> dp(n,vector<bool>(subSum+1,0));
+    
+        // if target becomes zero for any
+        for(int i=0;i<n;i++){
+            dp[i][0]=1;
+        }
+        // at index 0 no matter what target is if it equals to arr[0]
+        if(nums[0]<=subSum) dp[0][nums[0]]=1;
+
+        for(int ind=1;ind<n;ind++){
+            for(int tar=1;tar<=subSum;tar++){
+                bool notTake=dp[ind-1][tar];
+                bool take=false;
+                if(tar>=nums[ind]) take=dp[ind-1][tar-nums[ind]];
+
+                dp[ind][tar]=take | notTake;
+            }
+        }
+
+        return dp[n-1][subSum];
     }
 };
