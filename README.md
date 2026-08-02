@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/divesh-404/leetcode_problems/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/divesh-404/leetcode_problems/tree/master/0509-fibonacci-number) |
 | [0542-01-matrix](https://github.com/divesh-404/leetcode_problems/tree/master/0542-01-matrix) |
 | [0741-cherry-pickup](https://github.com/divesh-404/leetcode_problems/tree/master/0741-cherry-pickup) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0126-word-ladder-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0126-word-ladder-ii) |
 | [0257-binary-tree-paths](https://github.com/divesh-404/leetcode_problems/tree/master/0257-binary-tree-paths) |
+| [0494-target-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0494-target-sum) |
 ## Array
 |  |
 | ------- |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/divesh-404/leetcode_problems/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/divesh-404/leetcode_problems/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/divesh-404/leetcode_problems/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/divesh-404/leetcode_problems/tree/master/0733-flood-fill) |
