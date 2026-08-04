@@ -18,17 +18,32 @@ public:
         // return fun(n1-1,n2-1,text1,text2,dp);
 
         //tabulation
-        vector<vector<int>> dp(n1+1,vector<int>(n2+1,0));
+        // vector<vector<int>> dp(n1+1,vector<int>(n2+1,0));
 
 
-        for(int ind1=1;ind1<=n1;ind1++){
-            for(int ind2=1;ind2<=n2;ind2++){
-                if(text1[ind1-1]==text2[ind2-1]) dp[ind1][ind2]=1+dp[ind1-1][ind2-1];
-                else dp[ind1][ind2]=max(dp[ind1-1][ind2],dp[ind1][ind2-1]);
+        // for(int ind1=1;ind1<=n1;ind1++){
+        //     for(int ind2=1;ind2<=n2;ind2++){
+        //         if(text1[ind1-1]==text2[ind2-1]) dp[ind1][ind2]=1+dp[ind1-1][ind2-1];
+        //         else dp[ind1][ind2]=max(dp[ind1-1][ind2],dp[ind1][ind2-1]);
+        //     }
+        // }
+
+        // return dp[n1][n2];
+
+        //space optimization
+
+        vector<int> prev(n2+1,0),curr(n2+1,0);
+
+        for(int i=1;i<=n1;i++){
+            for(int j=1;j<=n2;j++){
+                if(text1[i-1]==text2[j-1]) curr[j]=1+prev[j-1];
+                else curr[j]=max(prev[j],curr[j-1]);
             }
+            prev=curr;
         }
 
-        return dp[n1][n2];
+        return prev[n2];
+
 
     }
 };
