@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/divesh-404/leetcode_problems/tree/master/0070-climbing-stairs) |
+| [0115-distinct-subsequences](https://github.com/divesh-404/leetcode_problems/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/divesh-404/leetcode_problems/tree/master/0120-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/divesh-404/leetcode_problems/tree/master/0198-house-robber) |
@@ -225,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/divesh-404/leetcode_problems/tree/master/0115-distinct-subsequences) |
 | [0126-word-ladder-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/divesh-404/leetcode_problems/tree/master/0127-word-ladder) |
 | [0257-binary-tree-paths](https://github.com/divesh-404/leetcode_problems/tree/master/0257-binary-tree-paths) |
