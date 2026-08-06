@@ -4,8 +4,6 @@ public:
         int n=word1.size();
         int m=word2.size();
 
-        // if(n==1 && m==1 && word1[0]==word2[0]) return 0;
-
         vector<int> prev(m+1,0),curr(m+1,0);
 
         for(int i=1;i<=n;i++){
