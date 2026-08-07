@@ -20,18 +20,34 @@ public:
         // return fun(0,1,n,prices,dp);
 
         //tabulation 
-        vector<vector<int>> dp(n+1,vector<int>(2,0));
+        // vector<vector<int>> dp(n+1,vector<int>(2,0));
 
-        dp[n-1][0]=prices[n-1];
-        dp[n-1][1]=0;
+        // dp[n-1][0]=prices[n-1];
+        // dp[n-1][1]=0;
 
-        for(int i=n-1;i>=0;i--){
-            for(int b=0;b<=1;b++){
-                if(b) dp[i][b]=max((-prices[i]+dp[i+1][0]),dp[i+1][1]);
-                else dp[i][b]=max((+prices[i]+dp[i+1][1]),dp[i+1][0]);
-            }
+        // for(int i=n-1;i>=0;i--){
+        //     for(int b=0;b<=1;b++){
+        //         if(b) dp[i][b]=max((-prices[i]+dp[i+1][0]),dp[i+1][1]);
+        //         else dp[i][b]=max((+prices[i]+dp[i+1][1]),dp[i+1][0]);
+        //     }
+        // }
+
+        // return dp[0][1];
+
+        //space optimization
+
+        vector<int> next(2,0);
+
+        next[0]=prices[n-1]; //selling on last day
+        next[1]=0; //buying on last day
+
+        for(int i=n-2;i>=0;i--){
+            vector<int> curr(2,0);
+            curr[0]=max((+prices[i]+next[1]),next[0]); // if we sell or not sell on this day
+            curr[1]=max((-prices[i]+next[0]),next[1]); //if we are buying or not in this day
+            next=curr;
         }
+        return next[1];
 
-        return dp[0][1];
     }
 };
