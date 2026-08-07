@@ -19,21 +19,39 @@ public:
         // return fun(0,n,1,2,prices,dp);
 
         //tabulation
-        vector<vector<vector<int>>> dp(n+1,vector<vector<int>>(2,vector<int>(3,0)));
+        // vector<vector<vector<int>>> dp(n+1,vector<vector<int>>(2,vector<int>(3,0)));
 
-        for(int i=0;i<=n;i++){
-            dp[i][0][0]=0;
-            dp[i][1][0]=0;
-        }
+        // for(int i=0;i<=n;i++){
+        //     dp[i][0][0]=0;
+        //     dp[i][1][0]=0;
+        // }
+
+        // for(int i=n-1;i>=0;i--){
+        //     for(int c=2;c>=1;c--){
+        //         dp[i][1][c]=max((-prices[i]+dp[i+1][0][c]),dp[i+1][1][c]);
+        //         dp[i][0][c]=max((+prices[i]+dp[i+1][1][c-1]),dp[i+1][0][c]);
+        //     }
+        // }
+
+        // return dp[0][1][2];
+
+        //space optimization
+
+        vector<vector<int>> after(2,vector<int>(3,0));
+        vector<vector<int>> curr(2,vector<int>(3,0));
 
         for(int i=n-1;i>=0;i--){
-            for(int c=2;c>=1;c--){
-                dp[i][1][c]=max((-prices[i]+dp[i+1][0][c]),dp[i+1][1][c]);
-                dp[i][0][c]=max((+prices[i]+dp[i+1][1][c-1]),dp[i+1][0][c]);
+            for(int c=1;c<=2;c++){
+                curr[1][c]=max((-prices[i]+after[0][c]),after[1][c]);
+
+                curr[0][c]=max((+prices[i]+after[1][c-1]),after[0][c]);
             }
+            after=curr;
         }
 
-        return dp[0][1][2];
+        return after[1][2];
+
+        
 
 
     }
