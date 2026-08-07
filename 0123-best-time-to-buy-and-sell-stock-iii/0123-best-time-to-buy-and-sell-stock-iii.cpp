@@ -37,19 +37,35 @@ public:
 
         //space optimization
 
-        vector<vector<int>> after(2,vector<int>(3,0));
-        vector<vector<int>> curr(2,vector<int>(3,0));
+        // vector<vector<int>> after(2,vector<int>(3,0));
+        // vector<vector<int>> curr(2,vector<int>(3,0));
+
+        // for(int i=n-1;i>=0;i--){
+        //     for(int c=1;c<=2;c++){
+        //         curr[1][c]=max((-prices[i]+after[0][c]),after[1][c]);
+
+        //         curr[0][c]=max((+prices[i]+after[1][c-1]),after[0][c]);
+        //     }
+        //     after=curr;
+        // }
+
+        // return after[1][2];
+
+        //N*4 solution
+        //2 transactions-> B->S->B->S=4
+
+        vector<int> after(5,0);
+        vector<int> curr(5,0);
 
         for(int i=n-1;i>=0;i--){
-            for(int c=1;c<=2;c++){
-                curr[1][c]=max((-prices[i]+after[0][c]),after[1][c]);
-
-                curr[0][c]=max((+prices[i]+after[1][c-1]),after[0][c]);
+            for(int t=3;t>=0;t--){
+                if(t%2==0) curr[t]=max((-prices[i]+after[t+1]),after[t]);
+                else curr[t]=max((+prices[i]+after[t+1]),after[t]);
             }
             after=curr;
         }
 
-        return after[1][2];
+        return after[0];
 
         
 
