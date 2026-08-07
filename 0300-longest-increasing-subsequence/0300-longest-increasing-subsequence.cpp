@@ -53,17 +53,35 @@ public:
 
         //some new method by dp[n]
 
-        vector<int> dp(n,1); //initially everyone assigned one
-        int maxLen=1;
-        for(int i=0;i<n;i++){
-            for(int pi=0;pi<i;pi++){
-                if(nums[i]>nums[pi]){
-                    dp[i]=max(dp[i],1+dp[pi]);
-                }
-                maxLen=max(maxLen,dp[i]);
+        // vector<int> dp(n,1); //initially everyone assigned one
+        // int maxLen=1;
+        // for(int i=0;i<n;i++){
+        //     for(int pi=0;pi<i;pi++){
+        //         if(nums[i]>nums[pi]){
+        //             dp[i]=max(dp[i],1+dp[pi]);
+        //         }
+        //         maxLen=max(maxLen,dp[i]);
+        //     }
+        // }
+
+        // return maxLen;
+
+
+        //using binary search and lower_bound
+
+        vector<int> temp;
+        temp.push_back(nums[0]);
+
+        for(int i=1;i<n;i++){
+            if(nums[i]>temp.back()){
+                temp.push_back(nums[i]);
+            }
+            else{
+                int ind=lower_bound(temp.begin(),temp.end(),nums[i])-temp.begin();
+                temp[ind]=nums[i];
             }
         }
 
-        return maxLen;
+        return temp.size();
     }
 };
