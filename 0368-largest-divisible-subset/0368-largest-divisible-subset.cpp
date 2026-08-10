@@ -1,8 +1,8 @@
 class Solution {
 public:
     vector<int> largestDivisibleSubset(vector<int>& nums) {
-        int n=nums.size();
         sort(nums.begin(),nums.end());
+        int n=nums.size();
 
         vector<int> dp(n,1),hash(n);
         int maxi=1;
@@ -12,7 +12,7 @@ public:
             hash[i]=i;
             for(int pi=0;pi<i;pi++){
                 if(nums[i]%nums[pi]==0 && 1+dp[pi]>dp[i]){
-                    dp[i]=1+dp[pi];
+                    dp[i]=1+dp[i];
                     hash[i]=pi;
                 }
             }
