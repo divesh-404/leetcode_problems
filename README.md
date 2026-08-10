@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/divesh-404/leetcode_problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0741-cherry-pickup](https://github.com/divesh-404/leetcode_problems/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divesh-404/leetcode_problems/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0845-longest-mountain-in-array](https://github.com/divesh-404/leetcode_problems/tree/master/0845-longest-mountain-in-array) |
 | [1048-longest-string-chain](https://github.com/divesh-404/leetcode_problems/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/divesh-404/leetcode_problems/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/1143-longest-common-subsequence) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0741-cherry-pickup](https://github.com/divesh-404/leetcode_problems/tree/master/0741-cherry-pickup) |
 | [0778-swim-in-rising-water](https://github.com/divesh-404/leetcode_problems/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/divesh-404/leetcode_problems/tree/master/0827-making-a-large-island) |
+| [0845-longest-mountain-in-array](https://github.com/divesh-404/leetcode_problems/tree/master/0845-longest-mountain-in-array) |
 | [0994-rotting-oranges](https://github.com/divesh-404/leetcode_problems/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/divesh-404/leetcode_problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1020-number-of-enclaves](https://github.com/divesh-404/leetcode_problems/tree/master/1020-number-of-enclaves) |
@@ -358,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0455-assign-cookies](https://github.com/divesh-404/leetcode_problems/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0845-longest-mountain-in-array](https://github.com/divesh-404/leetcode_problems/tree/master/0845-longest-mountain-in-array) |
 | [1048-longest-string-chain](https://github.com/divesh-404/leetcode_problems/tree/master/1048-longest-string-chain) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Union-Find
@@ -501,4 +504,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Enumeration
+|  |
+| ------- |
+| [0845-longest-mountain-in-array](https://github.com/divesh-404/leetcode_problems/tree/master/0845-longest-mountain-in-array) |
 <!---LeetCode Topics End-->
