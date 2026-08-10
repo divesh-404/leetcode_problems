@@ -16,7 +16,24 @@ public:
         cuts.insert(cuts.begin(),0);
         sort(cuts.begin(),cuts.end());
         int c=cuts.size();
-        vector<vector<int>> dp(c,vector<int>(c,-1));
-        return fun(1,c-2,cuts,dp);
+        // vector<vector<int>> dp(c,vector<int>(c,-1));
+        // return fun(1,c-2,cuts,dp);
+
+        //tabulation
+
+        vector<vector<int>> dp(c,vector<int>(c,0));
+        
+        for(int i=c-2;i>=1;i--){
+            for(int j=i;j<=c-2;j++){
+                int mini=1e9;
+                for(int k=i;k<=j;k++){
+                    int cost=cuts[j+1]-cuts[i-1]+dp[i][k-1]+dp[k+1][j];
+                    mini=min(cost,mini);
+                }
+                dp[i][j]=mini;
+            }
+        }
+
+        return dp[1][c-2];
     }
 };
