@@ -24,21 +24,21 @@ struct Node{
 class Trie {
 private: Node* root;
 public:
-    //initializing the trie data structure
     Trie() {
         root=new Node();
     }
-    //insert a word into a trie
+    
     void insert(string word) {
         Node* node=root;
         for(int i=0;i<word.size();i++){
             if(!node->containsKey(word[i])){
                 node->put(word[i],new Node());
             }
-            //move to the reference trie
             node=node->get(word[i]);
         }
+
         node->setEnd();
+
     }
     
     bool search(string word) {
@@ -56,9 +56,7 @@ public:
     bool startsWith(string prefix) {
         Node* node=root;
         for(int i=0;i<prefix.size();i++){
-            if(!node->containsKey(prefix[i])){
-                return false;
-            }
+            if(!node->containsKey(prefix[i])) return false;
             node=node->get(prefix[i]);
         }
         return true;
