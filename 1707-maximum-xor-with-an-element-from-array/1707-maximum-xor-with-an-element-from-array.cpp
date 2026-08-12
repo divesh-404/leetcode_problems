@@ -3,6 +3,7 @@ struct Node{
     Node(){
         links[0]=links[1]=nullptr;
     }
+
     bool containsKey(int bit){
         return links[bit]!=nullptr;
     }
@@ -21,7 +22,6 @@ class Trie{
     Node* root;
 
     public:
-
     Trie(){
         root=new Node();
     }
@@ -29,7 +29,7 @@ class Trie{
     void insert(int num){
         Node* node=root;
         for(int i=31;i>=0;i--){
-            int bit=(num>>i)&1; //gives 1 0r 0
+            int bit=(num>>i)&1;
             if(!node->containsKey(bit)){
                 node->put(bit,new Node());
             }
@@ -38,43 +38,42 @@ class Trie{
     }
 
     int getMax(int num){
-        int maxi=0;
         Node* node=root;
+        int maximumXor=0;
         for(int i=31;i>=0;i--){
             int bit=(num>>i)&1;
             if(node->containsKey(1-bit)){
-                maxi=maxi|(1<<i);
+                maximumXor=maximumXor|(1<<i);
                 node=node->get(1-bit);
             }
             else node=node->get(bit);
         }
-
-        return maxi;
+        return maximumXor;
     }
 };
 class Solution {
 public:
     vector<int> maximizeXor(vector<int>& nums, vector<vector<int>>& queries) {
         Trie trie;
-
-        sort(nums.begin(),nums.end());
-        
-        vector<vector<int>> querie;
+        vector<vector<int>> offlineQueries;
 
         for(int i=0;i<queries.size();i++){
-            querie.push_back({queries[i][1],queries[i][0],i});
+            offlineQueries.push_back({queries[i][1],queries[i][0],i});
         }
-        sort(querie.begin(),querie.end());
+
+        sort(nums.begin(),nums.end());
+        sort(offlineQueries.begin(),offlineQueries.end());
 
         vector<int> ans(queries.size());
 
-        int i=0;
-        for(auto &it:querie){
-            while(i<nums.size() && nums[i]<=it[0]){
-                trie.insert(nums[i]);
-                i++;
+        int ind=0;
+        for(auto &it:offlineQueries){
+            while(ind<nums.size() && nums[ind]<=it[0]){
+                trie.insert(nums[ind]);
+                ind++;
             }
-            if(i==0) ans[it[2]]=-1;
+
+            if(ind==0) ans[it[2]]=-1;
             else ans[it[2]]=trie.getMax(it[1]);
         }
 
