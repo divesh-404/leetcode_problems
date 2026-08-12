@@ -1,5 +1,8 @@
 struct Node{
     Node* links[2];
+    Node(){
+        links[0]=links[1]=nullptr;
+    }
     bool containsKey(int bit){
         return links[bit]!=nullptr;
     }
@@ -60,8 +63,8 @@ public:
             trie.insert(it);
         }
         int maxi=0;
-        for(int i=1;i<nums.size();i++){
-            maxi=max(maxi,trie.maximize(nums[i-1]));
+        for(auto &it:nums){
+            maxi=max(maxi,trie.maximize(it));
         }
 
         return maxi;
