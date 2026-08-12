@@ -59,13 +59,11 @@ public:
         for(auto &it: nums){
             trie.insert(it);
         }
-        int maxAns=0;
+        int maxi=0;
         for(int i=1;i<nums.size();i++){
-            for(int j=i-1;j<i;j++){
-                maxAns=max(maxAns,trie.maximize(nums[j]));
-            }
+            maxi=max(maxi,trie.maximize(nums[i-1]));
         }
 
-        return maxAns;
+        return maxi;
     }
 };
