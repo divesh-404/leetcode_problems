@@ -316,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/divesh-404/leetcode_problems/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/divesh-404/leetcode_problems/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1631-path-with-minimum-effort](https://github.com/divesh-404/leetcode_problems/tree/master/1631-path-with-minimum-effort) |
+| [1707-maximum-xor-with-an-element-from-array](https://github.com/divesh-404/leetcode_problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Binary Search
 |  |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/divesh-404/leetcode_problems/tree/master/0222-count-complete-tree-nodes) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/divesh-404/leetcode_problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1707-maximum-xor-with-an-element-from-array](https://github.com/divesh-404/leetcode_problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Divide and Conquer
 |  |
@@ -528,4 +530,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/divesh-404/leetcode_problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1707-maximum-xor-with-an-element-from-array](https://github.com/divesh-404/leetcode_problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
 <!---LeetCode Topics End-->
