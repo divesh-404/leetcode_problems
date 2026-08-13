@@ -229,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/divesh-404/leetcode_problems/tree/master/0127-word-ladder) |
 | [0208-implement-trie-prefix-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0208-implement-trie-prefix-tree) |
+| [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/divesh-404/leetcode_problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
 | [0368-largest-divisible-subset](https://github.com/divesh-404/leetcode_problems/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/divesh-404/leetcode_problems/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/divesh-404/leetcode_problems/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/divesh-404/leetcode_problems/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0213-house-robber-ii) |
+| [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
 | [0300-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/divesh-404/leetcode_problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/divesh-404/leetcode_problems/tree/master/0312-burst-balloons) |
