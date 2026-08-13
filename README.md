@@ -232,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/divesh-404/leetcode_problems/tree/master/0127-word-ladder) |
 | [0208-implement-trie-prefix-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
+| [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/divesh-404/leetcode_problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/divesh-404/leetcode_problems/tree/master/0015-3sum) |
 | [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
+| [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/divesh-404/leetcode_problems/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/divesh-404/leetcode_problems/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/divesh-404/leetcode_problems/tree/master/0721-accounts-merge) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/divesh-404/leetcode_problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/divesh-404/leetcode_problems/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/divesh-404/leetcode_problems/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/divesh-404/leetcode_problems/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0416-partition-equal-subset-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/divesh-404/leetcode_problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -360,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/divesh-404/leetcode_problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/divesh-404/leetcode_problems/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0191-number-of-1-bits](https://github.com/divesh-404/leetcode_problems/tree/master/0191-number-of-1-bits) |
+| [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 ## Design
 |  |
 | ------- |
@@ -457,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 | [0743-network-delay-time](https://github.com/divesh-404/leetcode_problems/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/divesh-404/leetcode_problems/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divesh-404/leetcode_problems/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -558,4 +563,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/divesh-404/leetcode_problems/tree/master/0238-product-of-array-except-self) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
