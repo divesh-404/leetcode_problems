@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/divesh-404/leetcode_problems/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/divesh-404/leetcode_problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/divesh-404/leetcode_problems/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/divesh-404/leetcode_problems/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/divesh-404/leetcode_problems/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/divesh-404/leetcode_problems/tree/master/0455-assign-cookies) |
@@ -320,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/divesh-404/leetcode_problems/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/divesh-404/leetcode_problems/tree/master/0238-product-of-array-except-self) |
 | [0287-find-the-duplicate-number](https://github.com/divesh-404/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0300-longest-increasing-subsequence) |
@@ -604,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/divesh-404/leetcode_problems/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 ## Quickselect
 |  |
@@ -630,4 +634,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/divesh-404/leetcode_problems/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
