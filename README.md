@@ -316,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/divesh-404/leetcode_problems/tree/master/0238-product-of-array-except-self) |
+| [0287-find-the-duplicate-number](https://github.com/divesh-404/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/divesh-404/leetcode_problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/divesh-404/leetcode_problems/tree/master/0312-burst-balloons) |
@@ -354,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/divesh-404/leetcode_problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/divesh-404/leetcode_problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0222-count-complete-tree-nodes](https://github.com/divesh-404/leetcode_problems/tree/master/0222-count-complete-tree-nodes) |
+| [0287-find-the-duplicate-number](https://github.com/divesh-404/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0300-longest-increasing-subsequence) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/divesh-404/leetcode_problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0778-swim-in-rising-water](https://github.com/divesh-404/leetcode_problems/tree/master/0778-swim-in-rising-water) |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0191-number-of-1-bits](https://github.com/divesh-404/leetcode_problems/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/divesh-404/leetcode_problems/tree/master/0222-count-complete-tree-nodes) |
+| [0287-find-the-duplicate-number](https://github.com/divesh-404/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/divesh-404/leetcode_problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/divesh-404/leetcode_problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -416,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/divesh-404/leetcode_problems/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/divesh-404/leetcode_problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/divesh-404/leetcode_problems/tree/master/0088-merge-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/divesh-404/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/divesh-404/leetcode_problems/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0845-longest-mountain-in-array](https://github.com/divesh-404/leetcode_problems/tree/master/0845-longest-mountain-in-array) |
@@ -602,4 +606,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/divesh-404/leetcode_problems/tree/master/0075-sort-colors) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/divesh-404/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/divesh-404/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
