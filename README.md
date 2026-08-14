@@ -287,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/divesh-404/leetcode_problems/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/divesh-404/leetcode_problems/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/divesh-404/leetcode_problems/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/divesh-404/leetcode_problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/divesh-404/leetcode_problems/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0063-unique-paths-ii) |
@@ -405,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/divesh-404/leetcode_problems/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/divesh-404/leetcode_problems/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/divesh-404/leetcode_problems/tree/master/0031-next-permutation) |
 | [0455-assign-cookies](https://github.com/divesh-404/leetcode_problems/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0845-longest-mountain-in-array](https://github.com/divesh-404/leetcode_problems/tree/master/0845-longest-mountain-in-array) |
