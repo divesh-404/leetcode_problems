@@ -1,16 +1,15 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int maxi=INT_MIN;
-        int n=nums.size();
-        //when ever the sum becomes <0 we make sum again 0 coz we want maximum sum and ele<0 will only decrease the toatl sum
+        //here we do the sum and when ever the sum becomes<0 we make it zero coxz we wnat max sum and -ve will just decrease
+        int maxAns=INT_MIN;
         int sum=0;
-        for(int i=0;i<n;i++){
+        for(int i=0;i<nums.size();i++){
             sum+=nums[i];
-            maxi=max(sum,maxi);
+            maxAns=max(sum,maxAns);
             if(sum<0) sum=0;
         }
 
-        return maxi;
+        return maxAns;
     }
 };
