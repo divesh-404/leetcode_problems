@@ -1,54 +1,67 @@
 class Solution {
 public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
-        // by checking freq of each element
-        // int n=grid.size();
-        // vector<int> freq(n*n+1,0);
-        // for(int i=0;i<n;i++){
-        //     for(int j=0;j<n;j++){
-        //         freq[grid[i][j]]++;
-        //     }
-        // }
+        //xor method
+        int n=grid.size();
+        int xr=0;
+        int cnt=1;
 
-        // int missing =-1;
-        // int repeating=-1;
-
-        // for(int i=1;i<=n*n;i++){
-        //     if(freq[i]==2){
-        //         repeating=i;
-        //     }
-        //     if(freq[i]==0) missing=i;
-        // }
-
-        // return {repeating,missing};
-
-        //mathematical method
-        int m=grid.size();
-        long long n=grid.size()*grid.size();
-        //sum of all numbers=S
-        long long S=(n*(n+1))/2;
-        //sum of squares of all numbers->S^2
-        long long S2=(n*(n+1)*(2*n+1))/6;
-
-        long long s=0;
-        long long s2=0;
-        for(int i=0;i<m;i++){
-            for(int j=0;j<m;j++){
-                s+=grid[i][j];
-                s2+=(long long)grid[i][j]*(long long)grid[i][j];
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                xr=xr^grid[i][j];
+                xr=xr^cnt;
+                cnt++;
             }
         }
-        //x-> repeating ele, y-> missing ele
-        //S-s=x-y
-        //S2-s2=(x-y)(x+y)->x^2-y^2
 
-        long long val1=s-S;
-        long long val2=s2-S2;
-        val2=val2/val1;
-        long long x=(val1+val2)/2;
-        long long y=x-val1;
+        //we will get a xor in which where there will be bit one means at that index of bit the numbers differs
 
-        return {(int)x,(int)y};
+        int bitNo=0;
+        while(1){
+            if((xr&(1<<bitNo))!=0) break;
+            bitNo++;
+        }
+
+        // now we got the bitNo at which both numbers bit differs
+        // now we will divide every elements in zero and one group
+
+        int zero=0;
+        int one=0;
+
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                //part one club
+                if((grid[i][j]&(1<<bitNo))!=0){
+                    one=one^grid[i][j];
+                }
+                else{
+                    zero=zero^grid[i][j];
+                }
+            }
+        }
+
+        //array with all correct elemenst
+        for(int i=1;i<=n*n;i++){
+            if((i&(1<<bitNo))!=0){
+                one=one^i;
+            }
+            else{
+                zero=zero^i;
+            }
+        }
+
+        // now we got zero and one numbers 
+        int count=0;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(zero==grid[i][j]) count++;
+            }
+        }
+
+        if(count==2) return {zero,one};
+        return {one,zero};
+
+        
 
     }
 };
