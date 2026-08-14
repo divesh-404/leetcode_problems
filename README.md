@@ -243,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/divesh-404/leetcode_problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/divesh-404/leetcode_problems/tree/master/1048-longest-string-chain) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/divesh-404/leetcode_problems/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+| [2965-find-missing-and-repeated-values](https://github.com/divesh-404/leetcode_problems/tree/master/2965-find-missing-and-repeated-values) |
 ## Sorting
 |  |
 | ------- |
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/divesh-404/leetcode_problems/tree/master/1631-path-with-minimum-effort) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/divesh-404/leetcode_problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2965-find-missing-and-repeated-values](https://github.com/divesh-404/leetcode_problems/tree/master/2965-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
 | ------- |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/divesh-404/leetcode_problems/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/divesh-404/leetcode_problems/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/divesh-404/leetcode_problems/tree/master/1631-path-with-minimum-effort) |
+| [2965-find-missing-and-repeated-values](https://github.com/divesh-404/leetcode_problems/tree/master/2965-find-missing-and-repeated-values) |
 ## Topological Sort
 |  |
 | ------- |
@@ -506,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/divesh-404/leetcode_problems/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/divesh-404/leetcode_problems/tree/master/0368-largest-divisible-subset) |
 | [0509-fibonacci-number](https://github.com/divesh-404/leetcode_problems/tree/master/0509-fibonacci-number) |
+| [2965-find-missing-and-repeated-values](https://github.com/divesh-404/leetcode_problems/tree/master/2965-find-missing-and-repeated-values) |
 ## Recursion
 |  |
 | ------- |
