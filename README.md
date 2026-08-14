@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/divesh-404/leetcode_problems/tree/master/0015-3sum) |
+| [0075-sort-colors](https://github.com/divesh-404/leetcode_problems/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/divesh-404/leetcode_problems/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/divesh-404/leetcode_problems/tree/master/0368-largest-divisible-subset) |
@@ -293,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/divesh-404/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
+| [0075-sort-colors](https://github.com/divesh-404/leetcode_problems/tree/master/0075-sort-colors) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/divesh-404/leetcode_problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/divesh-404/leetcode_problems/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0118-pascals-triangle](https://github.com/divesh-404/leetcode_problems/tree/master/0118-pascals-triangle) |
@@ -407,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/divesh-404/leetcode_problems/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/divesh-404/leetcode_problems/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/divesh-404/leetcode_problems/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/divesh-404/leetcode_problems/tree/master/0075-sort-colors) |
 | [0455-assign-cookies](https://github.com/divesh-404/leetcode_problems/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divesh-404/leetcode_problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0845-longest-mountain-in-array](https://github.com/divesh-404/leetcode_problems/tree/master/0845-longest-mountain-in-array) |
@@ -582,4 +585,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/divesh-404/leetcode_problems/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/divesh-404/leetcode_problems/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
