@@ -334,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0416-partition-equal-subset-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/divesh-404/leetcode_problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0455-assign-cookies](https://github.com/divesh-404/leetcode_problems/tree/master/0455-assign-cookies) |
+| [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/divesh-404/leetcode_problems/tree/master/0542-01-matrix) |
@@ -367,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/divesh-404/leetcode_problems/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/divesh-404/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0300-longest-increasing-subsequence) |
+| [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/divesh-404/leetcode_problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0778-swim-in-rising-water](https://github.com/divesh-404/leetcode_problems/tree/master/0778-swim-in-rising-water) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/divesh-404/leetcode_problems/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -390,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/divesh-404/leetcode_problems/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/divesh-404/leetcode_problems/tree/master/0191-number-of-1-bits) |
 | [0347-top-k-frequent-elements](https://github.com/divesh-404/leetcode_problems/tree/master/0347-top-k-frequent-elements) |
+| [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
 ## Design
 |  |
 | ------- |
@@ -541,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/divesh-404/leetcode_problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bitmask
 |  |
@@ -580,10 +584,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Enumeration
 |  |
@@ -635,4 +641,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/divesh-404/leetcode_problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0229-majority-element-ii) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
+## Treap
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
