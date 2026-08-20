@@ -351,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/divesh-404/leetcode_problems/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/divesh-404/leetcode_problems/tree/master/0518-coin-change-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/divesh-404/leetcode_problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/divesh-404/leetcode_problems/tree/master/0542-01-matrix) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/divesh-404/leetcode_problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -383,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/divesh-404/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/divesh-404/leetcode_problems/tree/master/0300-longest-increasing-subsequence) |
 | [0493-reverse-pairs](https://github.com/divesh-404/leetcode_problems/tree/master/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/divesh-404/leetcode_problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/divesh-404/leetcode_problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0778-swim-in-rising-water](https://github.com/divesh-404/leetcode_problems/tree/master/0778-swim-in-rising-water) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/divesh-404/leetcode_problems/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
